@@ -1,0 +1,53 @@
+mkdir backend
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install django djangorestframework django-cors-headers djangorestframework-simplejwt
+django-admin startproject config .
+python manage.py startapp accounts
+python manage.py startapp internships
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+
+url:
+ http://127.0.0.1:8000/
+ http://127.0.0.1:8000/admin/
+
+
+RUN COMMANDS (ORDER MUST):
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+
+
+Neenga frontend already implement panniteenga na, React → Django connect panna main thing just 2 items:
+
+JWT token get pannitu store panna
+
+Every API call-la Authorization header send panna
+
+
+
+
+✅ Neenga use panna vendiya correct URLs
+🔹 API Root
+
+👉 http://127.0.0.1:8000/api/
+
+🔹 Token (login)
+
+👉 POST http://127.0.0.1:8000/api/token/
+
+🔹 Internships
+
+👉 http://127.0.0.1:8000/api/internships/
+
+🔹 Applications
+
+👉 http://127.0.0.1:8000/api/applications/
+
+
+http://127.0.0.1:8000/admin/internships/internship/add/

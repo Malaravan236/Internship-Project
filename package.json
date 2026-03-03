@@ -1,0 +1,69 @@
+{
+  "name": "vite",
+  "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/Malaravan236/Internship-management-System#readme",
+  "bugs": {
+    "url": "https://github.com/Malaravan236/Internship-management-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malaravan236/Internship-management-System.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "eslint.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.6",
+    "@heroicons/react": "^2.2.0",
+    "@react-oauth/google": "^0.13.4",
+    "@types/nodemailer": "^6.4.17",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv-webpack": "^8.1.0",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.21.2",
+    "firebase-functions": "^6.3.2",
+    "font-awesome": "^4.7.0",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.263.1",
+    "next": "^15.3.1",
+    "nodemailer": "^6.10.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-fontawesome": "^1.7.1",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.1.1",
+    "react-toastify": "^11.0.5",
+    "smtpjs": "^0.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@svgr/webpack": "^8.1.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.x.x",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.5"
+  }
+}
