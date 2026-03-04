@@ -85,7 +85,7 @@ function App() {
               <Route path="/availableinterns" element={<InternshipListings />} />
               <Route path="/verify-certificate" element={<VerifyCertificate />} />
               <Route path="/notifications" element={<NotificationsPage />} />
-
+            
               <Route
                 path="/feedback/:applicationId"
                 element={<FeedbackAndCertificateWrapper />}

@@ -142,6 +142,9 @@ const Navbar: React.FC<NavbarProps> = ({ isHeaderScrolled, isMenuOpen, setIsMenu
                     <span className="font-medium">{user.username}</span>
                   </button>
 
+
+
+
                   {showUserDropdown && (
                     <div className="absolute right-0 top-12 w-48 bg-white rounded-lg shadow-lg border z-50 overflow-hidden">
                       <button
